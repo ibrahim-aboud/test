@@ -1,0 +1,18 @@
+span{
+    /* display:block; */
+    /* warning : inline elements can't have margins on top and bottom, unlike block elements, inline elements can having padding all the way around though */
+    margin: 50px;
+    padding: 30px;
+}
+div{
+    /* display:inline; */
+    border: 15px solid red;
+    margin: 20px;
+    padding: 20px;
+}
+a{
+    /* guess what, we can add a inline-block property, it stays inline, but we can use margin and padding freely */
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
